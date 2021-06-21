@@ -26,4 +26,7 @@ process.stdin.on('data', (data) => {
 });
 
 
+const done = (output) => {
+    process.stdout.write(output)
 
+}
